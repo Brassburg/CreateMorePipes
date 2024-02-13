@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "createpipes",
   "version": "${version}",
-  "name": "Example Mod",
+  "name": "Create: More Pipes",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "TurnrDev"
   ],
   "contact": {
-    "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
+    "sources": "https://github.com/TurnrDev/CreateMorePipes"
   },
   "license": "CC0",
   "icon": "assets/modid/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.modid.ExampleMod"
+      "dev.turnr.createpipes.CreatePipes"
     ]
   },
   "depends": {
