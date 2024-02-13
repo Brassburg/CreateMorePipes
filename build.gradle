@@ -43,6 +43,9 @@ dependencies {
 	})
 	modImplementation("net.fabricmc:fabric-loader:${fabric_loader_version}")
 
+	// Registrate
+	modImplementation(include("com.tterrag.registrate_fabric:Registrate:${project.registrate_version}"))
+
 	// dependencies
 	modImplementation("net.fabricmc.fabric-api:fabric-api:${fabric_api_version}")
 
