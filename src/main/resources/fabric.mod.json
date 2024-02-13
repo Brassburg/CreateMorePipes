@@ -18,9 +18,6 @@
       "com.example.modid.ExampleMod"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
     "fabric-api": ">=${fabric_api_version}",
